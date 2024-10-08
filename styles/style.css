@@ -1,16 +1,19 @@
-.title1 {
-  font-size: 48px;
-  font-weight: 400;
-  font-family: "Tenor Sans", sans-serif;
-  color: #0A0909;
+.header {
+  position: fixed;
+  top: 0;
+  background-color: rbga(black, 0.5);
+  -webkit-backdrop-filter: blur(15px);
+          backdrop-filter: blur(15px);
+  width: 100%;
+  z-index: 1000;
 }
-@media screen and (max-width: 992px) {
-  .title1 {
-    font-size: 34px;
-  }
+.header .header__layout {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
-@media screen and (max-width: 769px) {
-  .title1 {
-    font-size: 28px;
-  }
+
+.container {
+  max-width: 1240px;
+  width: 100%;
 }/*# sourceMappingURL=style.css.map */
