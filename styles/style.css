@@ -1,0 +1,16 @@
+.title1 {
+  font-size: 48px;
+  font-weight: 400;
+  font-family: "Tenor Sans", sans-serif;
+  color: #0A0909;
+}
+@media screen and (max-width: 992px) {
+  .title1 {
+    font-size: 34px;
+  }
+}
+@media screen and (max-width: 769px) {
+  .title1 {
+    font-size: 28px;
+  }
+}/*# sourceMappingURL=style.css.map */
