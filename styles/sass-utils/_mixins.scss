@@ -1,7 +1,6 @@
 @mixin text($color, $weight, $size-lg, $size-l, $size-m) {
     font-size: $size-lg;
     font-weight: $weight;
-    font-family: "Tenor Sans", sans-serif;
     color: $color;
 
     @media screen and (max-width: $table) {

@@ -3,7 +3,8 @@ $header: '.header';
 #{$header} {
     position: fixed;
     top: 0;
-    background-color: rbga(black, 0.5);
+    padding: 16px 0;
+    background-color: rgba($color7, 0.5);
     backdrop-filter: blur(15px);
     width: 100%;
     z-index: 1000;
@@ -13,9 +14,4 @@ $header: '.header';
         flex-direction: row;
         justify-content: space-between;
     }
-}
-
-.container {
-    max-width: 1240px;
-    width: 100%;
 }
